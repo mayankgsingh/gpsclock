@@ -2,7 +2,7 @@
 #include <TimeLib.h>	//https://github.com/PaulStoffregen/Time
 
 #include <Wire.h>
-#include "DFRobot_LCD.h"
+#include "DFRobot_LCD.h"  //https://github.com/DFRobot/DFRobot_RGBLCD
 #include <Adafruit_GPS.h>
 #include <SoftwareSerial.h>
 
@@ -16,8 +16,8 @@
 //   Connect the GPS RX (receive) pin to Digital 2
 
 // Global vars
-SoftwareSerial mySerial(3, 2);
-Adafruit_GPS GPS(&mySerial);  //TX,RX
+SoftwareSerial mySerial(3, 2);//TX,RX
+Adafruit_GPS GPS(&mySerial);
 #define GPSECHO  false
 DFRobot_LCD lcd(16,2);  //16 characters and 2 lines of show
 static float TIMEZONES[] = { 5.5, 10 }; //IST, SYDNEY
