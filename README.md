@@ -14,4 +14,4 @@ If connected with GPS unit, it has ability to sync/update time with GPS.
   - GPS [VIN -> 3.3V, GND -> GND, TX -> 3, RX -> 2]
 
 ## Screenshots
-(https://raw.githubusercontent.com/mayankgsingh/gpsclock/master/screenshot.jpg)|![Screenshot.jpg]
+![Screenshot](https://raw.githubusercontent.com/mayankgsingh/gpsclock/master/screenshot.jpg)
